@@ -1,4 +1,5 @@
 require 'resque/server'
+require 'resque/plugins/job_stats'
 
 module Resque
   module Plugins
